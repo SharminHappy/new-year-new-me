@@ -1,12 +1,17 @@
-.header{
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+ }
+/* header style */
+.banner{
     background: url(../images/banner/banner2.png);
     background-repeat: no-repeat;
     width: 1600px;
     height: 808px;
-    font-family: 'Open Sans', sans-serif;
+    
     text-align: right;
 }
-.motivation{
+.banner-title{
     text-align: right; 
     font-weight: 700;
     font-size: 65px;
@@ -18,7 +23,7 @@
     margin-right: 230px;
     padding-top: 200px;
 }
-.motivation-info{
+.banner-subtitle{
    text-align: right;
    font-weight: 400 ;
    font-size: 16px;
@@ -40,4 +45,48 @@
     margin-left: 1210px;
     margin-right: 230px;
     margin-bottom: 167px;
+    border: none;
 }
+/* section style */
+.section{
+    /* background: url(../images/person.png); */
+    background-repeat: no-repeat;
+    display: flex;
+    gap: 57px;
+    padding-top: 132px;
+    padding-left: 206px;
+    padding-right: 322px;
+}
+.section-background-img{
+    width: 569px;
+    height: 723.3px;
+    background-repeat: no-repeat;
+    display: flex;
+    /* width: 527.93px; */
+    /* height: 527.93px; */
+    /* border-radius:50% ; */
+    /*  background: rgba(241, 91, 34, 0.2); */
+}
+.section-title h2{
+    width: 288px;
+    height: 94px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: right;
+    margin-bottom: 24px; 
+    margin-top: 132px;
+}
+.section-subtitle h3{
+    width: 416px;
+    height: 104px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+ nav p img{
+    width: 24px;
+    height: 24px;
+    margin-top: 8px;
+    
+ }
